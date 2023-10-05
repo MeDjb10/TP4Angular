@@ -1,5 +1,7 @@
-<h1>Nos choix de pizzas</h1>
+<div class="container">
+  <h2 class="fw-bold">Nos choix de pizzas</h2>
 
-<div class="list-group" *ngFor="let pizza of lespizzas">
-  <moh-pizza class="list-group-item" [pizza]="pizza" > </moh-pizza>
+  <div class="list-group" *ngFor="let pizza of lespizzas">
+    <moh-pizza class="list-group-item" [pizza]="pizza"> </moh-pizza>
+  </div>
 </div>
